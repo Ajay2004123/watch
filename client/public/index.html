@@ -4,17 +4,47 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TogetherWatch 💑</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
     <style>
       *, *::before, *::after { box-sizing: border-box; }
-      body { margin: 0; background: #0d0a0f; color: #f0e8e0; font-family: 'DM Sans', sans-serif; }
+
+      body {
+        margin: 0;
+        background: #0d0a0f;
+        color: #f0e8e0;
+        font-family: 'DM Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      #root {
+        flex: 1;
+      }
+
+      footer {
+        text-align: center;
+        padding: 12px;
+        font-size: 14px;
+        color: #c8b6c8;
+        background: #120d14;
+        letter-spacing: 0.5px;
+      }
+
       ::-webkit-scrollbar { width: 4px; }
       ::-webkit-scrollbar-thumb { background: #3a2a3a; border-radius: 2px; }
     </style>
   </head>
+
   <body>
     <div id="root"></div>
+
+    <footer>
+      Created by <strong>Ajay Patel</strong> 💜
+    </footer>
   </body>
 </html>
