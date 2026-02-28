@@ -16,34 +16,8 @@ Stream videos from local storage, chat in real-time, and feel close even when ap
 - **Database:** Supabase (PostgreSQL) — free tier
 - **Video:** Chunked HTTP streaming (Range requests)
 
----
 
-## 🚀 Quick Start
 
-### 1. Supabase Setup
-1. Go to [supabase.com](https://supabase.com) → create free project
-2. Go to SQL Editor → run the SQL in `server/config/schema.sql`
-3. Go to Settings → API → copy your `URL` and `anon key`
-
-### 2. Backend Setup
-```bash
-cd server
-npm install
-cp .env.example .env
-# Fill in your Supabase URL and key in .env
-npm run dev
-```
-Server runs on **http://localhost:5000**
-
-### 3. Frontend Setup
-```bash
-cd client
-npm install
-npm start
-```
-App runs on **http://localhost:3000**
-
----
 
 ## 📁 Structure
 ```
